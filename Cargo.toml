@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
-    "bevy_input",
+    "input",
 ]
 
 # 工作区共享的依赖版本，避免每个子 crate 重复写版本号
