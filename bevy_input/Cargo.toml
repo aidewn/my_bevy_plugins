@@ -1,0 +1,11 @@
+﻿[package]
+name = "bevy_input"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "可复用的 Bevy 输入插件，Action 抽象 + InputMap"
+
+[dependencies]
+bevy = { workspace = true }

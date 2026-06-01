@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "bevy_input",
+]
+
+# 工作区共享的依赖版本，避免每个子 crate 重复写版本号
+[workspace.dependencies]
+bevy = "0.19.0-rc.2"
+
+# 共享的元数据
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["aidwen"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/aidwen/my_bevy_plugins"
